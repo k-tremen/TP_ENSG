@@ -3,25 +3,26 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>TP_ENSG</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-		<link rel="stylesheet" type"text/css" href="style2.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style2.css">
+
+
 		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
 	</head>
 	<body>
 
-	<div><img src="ensg.JPG" style="width: 100%"></div>
+	<div><img src="ensg.jpg" style="width: 100%"></div>
 
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-	<div class="container-fluid">
+
 		<a class="navbar-brand" href="#"><img src="logo.png"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarResponsive">
+
+		<div class="collapse navbar-collapse" id="navbar">
 			<ul class="navbar-nav ml-auto">
 			<li class="nav-item">
 				<a class="nav-link" href="#">Home</a>
@@ -37,7 +38,7 @@
 			</li>
 			</ul>
 		</div>
-	</div>
+
 	</nav>
 
 	<div class="container-fluid padding">
@@ -69,5 +70,7 @@
 		</div>
 		<hr class="my-4">
 	</div>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
