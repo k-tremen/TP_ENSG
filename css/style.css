@@ -9,7 +9,7 @@ html, body {
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url('foret.JPG');
+    background: url(../images/foret.jpg);
     display: table;
     top: 0;
     background-size: cover;

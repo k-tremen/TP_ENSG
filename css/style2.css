@@ -1,14 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Acme');
 
 html, body {
 	height: 100%
 	width: 100%;
-	font-family: 'Lobster', cursive;
+	font-family: 'Acme', sans-serif;
 	color: #222;
 }
 
+/*==== HEADER ====*/
+
+.header {
+	width: 100%;
+}
+
+/*==== FIN HEADER ====*/
+
+/*==== NAVIGATION ====*/
+
 .navbar {
 	padding: .8rem;
+	background-color: #E8E8E8;
+	-webkit-box-shadow: inset 0px 0px 8px 2px rgba(189,189,189,1);
+    -moz-box-shadow: inset 0px 0px 8px 2px rgba(189,189,189,1);
+    box-shadow: inset 0px 0px 8px 2px rgba(189,189,189,1);
+}
+
+.navbar-brand {
+	padding-left: 3rem;
 }
 
 .navbar-nav li {
@@ -16,11 +34,27 @@ html, body {
 }
 
 .nav-link {
-	font-size: 1.1em;
+	font-size: 1.3em;
 }
+
+/*==== FIN NAVIGATION ====*/
+
+/*==== CONTENU ====*/
 
 .padding {
 	padding-bottom: 2rem;
+	-webkit-box-shadow: inset 0px 0px 8px 2px rgba(189,189,189,1);
+    -moz-box-shadow: inset 0px 0px 8px 2px rgba(189,189,189,1);
+    box-shadow: inset 0px 0px 8px 2px rgba(189,189,189,1);
+}
+
+#arrows {
+	padding-bottom: 2rem;
+}
+
+.padding img {
+	padding-bottom: 1em;
+	padding-top: 3em;
 }
 
 .welcome {
@@ -29,21 +63,26 @@ html, body {
 	margin: 0 auto;
 }
 
-.welcome hr {
+hr {
 	border-top: 2px solid #b4b4b4;
 	width: 95%;
 	margin-top: .3rem;
 	margin-bottom: 1rem;
 }
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
+.zoom {
+	transition: transform .2s;
+}
+ 
+.zoom:hover {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+tbody td {
+	text-align: center;
+}
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+/*==== FIN CONTENU ====*/
